@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pt-introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.pt-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.pt-vsms {
+    display: flex;
+}
+
+
+.pt-header {
+    color: purple;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+.pt-subheader {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    max-width: 50%;
+}
+
+.pt-stitle {
+    margin: auto;
+    font-size: medium;
+    font-weight: bold;
+    color: purple;
+}
+.pt-subheader .pt-paragraph {
+    color: blue;
+    font-size: smaller;
+    max-width: 80%;
+}
+
+.pt-header .fill {
+    color:rgb(243, 178, 14);
+}
+
+
+.pt-paragraph {
+    margin: auto;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 90%;
+}
+
+.pt-footer-container {
+    margin-top: 30px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: #3A1078;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    
+}
+
+.pt-footer-subcontainer {
+    margin-top: 40px;
+    flex-basis: 50%;
+    text-align: left;
+    text-align: center;
+    gap: 10px;
+}
+
+.pt-footer-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    
+}
+.pt-footer-paragraph {
+    font-size: small;
+
+}
