@@ -71,7 +71,7 @@ export default function Home() {
         </div>
       </div>
 
-      <footer className="pt-footer-container">
+      {/* <footer className="pt-footer-container">
         <div className="pt-footer-subcontainer">
           <div className="pt-footer-header">Hubungi Kami</div>
           <div className="pt-footer-paragraph"><EmailIcon></EmailIcon> panti@mail.com</div>
@@ -97,7 +97,7 @@ export default function Home() {
         
 
         
-      </footer>
+      </footer> */}
     </>
   );
 }
